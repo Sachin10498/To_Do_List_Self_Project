@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.navbar-custom{
+  background-image: linear-gradient(#73C2FB, #77C6FF);
+  box-shadow: 0 2px 2px 0.25px rgba(0, 0, 0, 0.25);
+}
+.container{
+  max-width: 1300px;
+}
+.wave2{
+	position: fixed;
+	bottom: -20px;
+	left: -30px;
+	height: 100%;
+	z-index: -1;
+}
+.container-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 20px;
+}
+.landing-description{
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.landing-description h1{
+  margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.landing_sub_detail{
+  list-style-type: none;
+  padding: 32px;
+}
+
+@media only screen and (max-width: 1169px){
+  .wave2{
+    display: none;
+  }
+}
+@media only screen and (max-width: 1065px){
+  .container-flex .landing_logo{
+    width: 500px;
+  }
+  .landing-description h1{
+    font-size: 24px;
+  }
+  .container-flex{
+    padding: 80px 60px;
+  }
+}
+@media only screen and (max-width: 544px){
+  .landing_logo{
+    display: none;
+  }
+}
+/* Button main */
+.landing_btn a {
+  text-decoration: none;
+  background-color: #08ff1a;
+  color: white;
+  font-weight: 450;
+  border-radius: 4px;
+  padding: 12px 16px;
+  font-size: 24px;
+}
+.landing_btn{
+  padding-left: 32px;
+}
+
+@media only screen and (max-width: 990px) {
+  .container-flex {
+    display: block;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  .container-flex .landing-description{
+    text-align: center;
+  }
+  .landing_btn{
+    padding-left: 0;
+  }
+}
