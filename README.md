@@ -1,5 +1,10 @@
 # Todo-App
+
 Simple Full Stack Todo-App App created using MERN stack
+
+Developed application for software developers to manage and maintain their daily life task. 
+
+Added Login and Registration Features using React and JSon.
 
 ## Installing
 
