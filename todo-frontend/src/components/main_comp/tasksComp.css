@@ -1,0 +1,19 @@
+.task-border{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 12px;
+    text-align: left;
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+}
+.divider{
+    margin: 12px 0px;
+    border-bottom: 1px solid black;
+}
+.sub-tasks{
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 8px;
+    text-align: left;
+}
